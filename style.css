@@ -1,0 +1,9 @@
+.name{
+    border: 5px;
+    border-radius: 5px;
+}
+
+.grid container{
+    display: flex;
+    
+}
