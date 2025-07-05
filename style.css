@@ -1,9 +1,62 @@
-.name{
-    border: 5px;
-    border-radius: 5px;
+
+.grid-container{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+
 }
 
-.grid container{
+body{
+    background-image: url(./BG_2.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.first{
+    border: 5px solid rgb(160, 76, 160);
+    padding: 0px 10px 15px 10px;
+    background-color: rgb(105, 68, 139);
+    border-radius: 35px 0px;
+    margin: 10px;
+    font-family: cursive;
+    font-size: 20px;
+    gap: ;
+}
+
+#heading{
     display: flex;
-    
+    justify-content: center;
+}
+
+article{
+    display: flex;
+}
+
+.end{
+    display: grid;
+    justify-content: center;
+}
+
+img{
+   border: 2px solid rgb(160, 76, 160);
+   border-radius: 35px; 
+
+}
+
+button{
+    background-color: rgb(105, 68, 139);
+    border: 10px 8px;
+    border-radius: 8px;
+    padding: 7px;
+}
+
+button:hover{
+    background-color: rgb(160, 76, 160);
+}
+button:hover{
+    scale: 1.2;
 }
