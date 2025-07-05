@@ -4,7 +4,6 @@
     gap: 10px;
     padding: 10px;
     flex-wrap: wrap;
-
 }
 
 body{
@@ -12,8 +11,6 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
-
 }
 
 .first{
@@ -35,7 +32,7 @@ article{
     display: flex;
 }
 
-.end{
+.button,.message{
     display: grid;
     justify-content: center;
 }
@@ -43,7 +40,6 @@ article{
 img{
    border: 2px solid rgb(160, 76, 160);
    border-radius: 35px; 
-
 }
 
 button{
@@ -55,7 +51,5 @@ button{
 
 button:hover{
     background-color: rgb(160, 76, 160);
-}
-button:hover{
     scale: 1.2;
 }
